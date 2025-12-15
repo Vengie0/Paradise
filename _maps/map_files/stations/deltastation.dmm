@@ -57841,11 +57841,19 @@
 /turf/space,
 /area/space/nearstation)
 "hFJ" = (
-/obj/structure/plasticflaps{
-	opacity = 1
+/obj/machinery/door/poddoor/preopen{
+	id_tag = "Secure Gate";
+	name = "Security Blast Door"
 	},
 /obj/machinery/door/window/classic/reversed{
 	name = "Security Delivery";
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/access/any/security,
+/obj/effect/mapping_helpers/airlock/windoor/access/any/supply/mule_bot{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/windoor/access/any/security/brig{
 	dir = 8
 	},
 /obj/machinery/navbeacon{
@@ -57853,15 +57861,8 @@
 	dir = 1;
 	location = "Security"
 	},
-/obj/machinery/door/poddoor/preopen{
-	id_tag = "Secure Gate";
-	name = "Security Blast Door"
-	},
-/obj/effect/mapping_helpers/airlock/windoor/access/any/security/brig{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/windoor/access/any/supply/mule_bot{
-	dir = 8
+/obj/structure/plasticflaps{
+	opacity = 1
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/fsmaint)
