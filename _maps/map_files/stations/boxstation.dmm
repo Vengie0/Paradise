@@ -50778,6 +50778,7 @@
 	dir = 4;
 	color = "#85130b"
 	},
+/obj/effect/landmark/start/prisoner,
 /turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "gjQ" = (
@@ -67861,6 +67862,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tiles/jobs/bar/checker,
+/obj/effect/landmark/start/prisoner,
 /turf/simulated/floor/plasteel,
 /area/station/security/permabrig)
 "oEK" = (
@@ -75748,6 +75750,13 @@
 "ssc" = (
 /turf/simulated/wall,
 /area/station/medical/surgery)
+"sse" = (
+/obj/structure/chair/stool{
+	dir = 4
+	},
+/obj/effect/landmark/start/prisoner,
+/turf/simulated/floor/plasteel,
+/area/station/security/permabrig)
 "ssf" = (
 /obj/machinery/light{
 	dir = 8
@@ -107456,7 +107465,7 @@ ado
 anf
 sDL
 anf
-eBy
+sse
 eBy
 ado
 asl

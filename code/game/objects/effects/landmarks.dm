@@ -286,6 +286,10 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/newplayer_start) //Without this you sp
 /obj/effect/landmark/start/assistant
 	name = "Assistant"
 
+/obj/effect/landmark/start/prisoner
+	name = "Prisoner"
+	icon_state = "Prisoner"
+
 /obj/effect/landmark/start/atmospheric
 	name = "Life Support Specialist"
 	icon_state = "Atmos"

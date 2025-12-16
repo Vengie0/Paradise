@@ -34,6 +34,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 		/datum/job/ntspecops/solgovspecops,
 		/datum/job/assistant,
 		/datum/job/syndicateofficer,
+		/datum/job/prisoner
 	)
 	// Jobs that appear in the list, and you can prioritize, but not open/close slots for
 	var/list/blacklisted_partial = list(

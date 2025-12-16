@@ -439,6 +439,14 @@
 	/// How many mining points you need to be released from the labour camp.
 	var/goal = 0
 
+/obj/item/card/id/prisonerjob
+	name = "Prisoner ID card"
+	desc = "You are just a prisoner, nothing more."
+	icon_state = "prisoner"
+	assignment = "Prisoner"
+	registered_name = "Scum"
+	access = list(ACCESS_LIBRARY)
+
 /obj/item/card/id/prisoner/examine(mob/user)
 	. = ..()
 	if(goal)
@@ -701,6 +709,12 @@
 	registered_name = "Assistant"
 	icon_state = "assistant"
 	access = list(ACCESS_MAINT_TUNNELS)
+
+/obj/item/card/id/prisoner
+	name = "Prisoner ID"
+	registered_name = "Assistant"
+	icon_state = "prisoner"
+	access = list(ACCESS_LIBRARY)
 
 /obj/item/card/id/clown
 	name = "Pink ID"

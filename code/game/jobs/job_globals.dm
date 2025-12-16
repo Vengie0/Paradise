@@ -98,7 +98,8 @@ GLOBAL_LIST_INIT(active_security_positions, list(
 
 
 GLOBAL_LIST_INIT(assistant_positions, list(
-	"Assistant"
+	"Assistant",
+	"Prisoner"
 ))
 
 GLOBAL_LIST_INIT(nonhuman_positions, list(

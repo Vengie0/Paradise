@@ -192,6 +192,7 @@
 	antag_cost = 7
 	antag_weight = 2
 	antagonist_type = /datum/antagonist/traitor
+	banned_jobs = list("Prisoner") // Bans the prisoner from being a traitor because of balancing reasons.
 
 /datum/ruleset/traitor/roundstart_post_setup(datum/game_mode/dynamic)
 	latespawn_time = rand(5 MINUTES, 15 MINUTES)
