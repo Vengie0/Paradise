@@ -54740,6 +54740,13 @@
 /obj/machinery/alarm/directional/east,
 /turf/simulated/floor/plating,
 /area/station/maintenance/electrical/fore_starboard)
+"iko" = (
+/obj/effect/turf_decal/tiles/jobs/bar/checker,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/can,
+/obj/item/shard,
+/turf/simulated/floor/plasteel,
+/area/station/security/permabrig)
 "ikv" = (
 /turf/simulated/wall,
 /area/station/science/lobby)
@@ -64232,10 +64239,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/simulated/floor/plasteel,
 /area/station/security/checkpoint/secondary)
-"mNF" = (
-/obj/effect/decal/cleanable/fungus,
-/turf/simulated/wall,
-/area/station/security/permabrig)
 "mNR" = (
 /obj/machinery/hydroponics/soil,
 /turf/simulated/floor/plating,
@@ -67902,10 +67905,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/command/bridge)
-"oDO" = (
-/obj/effect/decal/cleanable/fungus,
-/turf/simulated/wall/r_wall,
-/area/station/security/permabrig)
 "oDT" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -81472,7 +81471,6 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/closet/crate/can,
 /turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "vnO" = (
@@ -85510,6 +85508,10 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/supply/qm)
+"xoT" = (
+/obj/effect/decal/cleanable/fungus,
+/turf/simulated/wall/r_wall,
+/area/station/security/permabrig)
 "xpl" = (
 /obj/structure/chair{
 	dir = 1
@@ -87174,6 +87176,10 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/security/brig)
+"xZH" = (
+/obj/effect/decal/cleanable/fungus,
+/turf/simulated/wall,
+/area/station/security/permabrig)
 "xZZ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/classic/reversed,
@@ -105300,7 +105306,7 @@ cHL
 tia
 tWD
 eGU
-mgF
+iko
 ouo
 gvh
 abN
@@ -107376,7 +107382,7 @@ avi
 acR
 fMM
 sSX
-oDO
+xoT
 abN
 aab
 bat
@@ -108651,7 +108657,7 @@ ado
 oUV
 cEV
 sgt
-mNF
+xZH
 avo
 kcW
 fMM

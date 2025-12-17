@@ -224,8 +224,8 @@
 							var/datum/job/temp = SSjobs.GetJob(jobPos)
 							if(!temp) continue
 							jobs_to_ban += temp.title
-					if("noncrewdept")
-						for(var/jobPos in GLOB.noncrew_positions)
+					if("prisonerdept")
+						for(var/jobPos in GLOB.prisoner_positions)
 							if(!jobPos)	continue
 							var/datum/job/temp = SSjobs.GetJob(jobPos)
 							if(!temp) continue
@@ -837,7 +837,7 @@
 					joblist += temp.title
 			if("noncrewdept")
 				joblist += "pAI"
-				for(var/jobPos in GLOB.noncrew_positions)
+				for(var/jobPos in GLOB.prisoner_positions)
 					if(!jobPos)	continue
 					var/datum/job/temp = SSjobs.GetJob(jobPos)
 					if(!temp) continue

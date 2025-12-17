@@ -107,7 +107,7 @@ GLOBAL_LIST_INIT(nonhuman_positions, list(
 	"Drone",
 	"pAI"
 ))
-GLOBAL_LIST_INIT(noncrew_positions, list(
+GLOBAL_LIST_INIT(prisoner_positions, list(
 	"Prisoner"
 ))
 

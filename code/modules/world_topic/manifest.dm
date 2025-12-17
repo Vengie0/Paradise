@@ -12,7 +12,8 @@
 		"car" = GLOB.supply_positions,
 		"srv" = GLOB.service_positions,
 		"ast" = GLOB.assistant_positions,
-		"bot" = GLOB.nonhuman_positions
+		"bot" = GLOB.nonhuman_positions,
+		"terminated" = GLOB.prisoner_positions
 	)
 
 	for(var/datum/data/record/t in GLOB.data_core.general)

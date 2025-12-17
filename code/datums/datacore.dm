@@ -27,6 +27,7 @@ GLOBAL_LIST_EMPTY(PDA_Manifest)
 	var/sup[0]
 	var/bot[0]
 	var/misc[0]
+	var/prisoner[0]
 	for(var/datum/data/record/t in GLOB.data_core.general)
 		var/name = sanitize(t.fields["name"])
 		var/rank = sanitize(t.fields["rank"])
@@ -95,7 +96,8 @@ GLOBAL_LIST_EMPTY(PDA_Manifest)
 		"ser" = ser,\
 		"sup" = sup,\
 		"bot" = bot,\
-		"misc" = misc\
+		"misc" = misc,\
+		"terminated" = prisoner\
 		)
 	return
 
