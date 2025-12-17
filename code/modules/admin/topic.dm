@@ -224,6 +224,12 @@
 							var/datum/job/temp = SSjobs.GetJob(jobPos)
 							if(!temp) continue
 							jobs_to_ban += temp.title
+					if("noncrewdept")
+						for(var/jobPos in GLOB.noncrew_positions)
+							if(!jobPos)	continue
+							var/datum/job/temp = SSjobs.GetJob(jobPos)
+							if(!temp) continue
+							jobs_to_ban += temp.title
 
 		// If the job ban is for multiple jobs in one group (IE: Command), iterate through jobs and ban each individually
 		if(multi_job)
@@ -825,6 +831,13 @@
 			if("nonhumandept")
 				joblist += "pAI"
 				for(var/jobPos in GLOB.nonhuman_positions)
+					if(!jobPos)	continue
+					var/datum/job/temp = SSjobs.GetJob(jobPos)
+					if(!temp) continue
+					joblist += temp.title
+			if("noncrewdept")
+				joblist += "pAI"
+				for(var/jobPos in GLOB.noncrew_positions)
 					if(!jobPos)	continue
 					var/datum/job/temp = SSjobs.GetJob(jobPos)
 					if(!temp) continue

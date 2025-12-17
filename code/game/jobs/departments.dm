@@ -191,5 +191,5 @@
 	account_starting_balance = DEPARTMENT_BALANCE_REALLY_LOW
 	account_base_pay = DEPARTMENT_BASE_PAY_NONE
 	account_access = list(ACCESS_HEADS) //HoS is listed as HOP, but any head can approve
-	department_roles = list("Assistant","Prisoner")
+	department_roles = list("Assistant", "Prisoner")
 	head_of_staff = "Head of Personnel"

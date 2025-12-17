@@ -21507,7 +21507,7 @@
 /area/station/hallway/primary/central/west)
 "bzN" = (
 /obj/machinery/door/airlock/public/glass{
-	name = Prison Dormitory
+	name = PrisonDormitory
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -50259,12 +50259,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/fsmaint)
-"fVi" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/carpet/red,
-/area/station/security/permabrig)
 "fVk" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/medical/bruise_pack/advanced,
@@ -58646,7 +58640,7 @@
 	req_access = list(4)
 	},
 /obj/effect/spawner/random/cobweb/right/frequent,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "kfl" = (
 /obj/structure/closet/secure_closet/captains,
@@ -63528,13 +63522,6 @@
 /obj/effect/spawner/random/fungus/maybe,
 /turf/simulated/wall,
 /area/station/supply/storage)
-"mxa" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tiles/department/medical/checker,
-/obj/item/mop,
-/obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor/plasteel/white,
-/area/station/security/permabrig)
 "mxy" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/turf_decal/tiles/department/medical,
@@ -64245,6 +64232,10 @@
 /obj/effect/turf_decal/delivery,
 /turf/simulated/floor/plasteel,
 /area/station/security/checkpoint/secondary)
+"mNF" = (
+/obj/effect/decal/cleanable/fungus,
+/turf/simulated/wall,
+/area/station/security/permabrig)
 "mNR" = (
 /obj/machinery/hydroponics/soil,
 /turf/simulated/floor/plating,
@@ -66920,9 +66911,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel,
 /area/station/maintenance/apmaint2)
-"oij" = (
-/turf/simulated/floor/carpet/red,
-/area/station/security/permabrig)
 "ois" = (
 /obj/machinery/newscaster/security_unit/directional/north,
 /turf/simulated/floor/plasteel,
@@ -67090,12 +67078,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/command/office/ce)
-"okB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/carpet/red,
-/area/station/security/permabrig)
 "okS" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
@@ -67793,7 +67775,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "oAD" = (
 /obj/machinery/atmospherics/portable/canister/toxins,
@@ -67920,6 +67902,10 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/command/bridge)
+"oDO" = (
+/obj/effect/decal/cleanable/fungus,
+/turf/simulated/wall/r_wall,
+/area/station/security/permabrig)
 "oDT" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -72627,10 +72613,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/cryopod{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "qNO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -76158,7 +76141,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "sBx" = (
 /obj/structure/closet/wardrobe/black,
@@ -77319,13 +77302,13 @@
 "tfG" = (
 /obj/structure/closet{
 	anchored = 1;
-	name = Prison Locker
+	name = PrisonLocker
 	},
 /obj/item/clothing/under/color/orange/prison,
 /obj/item/clothing/under/color/orange/prison,
 /obj/item/radio/headset,
 /obj/item/radio/headset,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "tfH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -78650,8 +78633,10 @@
 	name = "Prison Intercom (General)";
 	pixel_y = 25
 	},
-/obj/item/kirbyplants/large,
-/turf/simulated/floor/carpet/red,
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "tPw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -84760,7 +84745,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/wood,
 /area/station/security/permabrig)
 "wVi" = (
 /obj/structure/chair{
@@ -106352,7 +106337,7 @@ hCs
 kTP
 mzL
 uVr
-mxa
+orU
 lKq
 asg
 lKj
@@ -107108,7 +107093,7 @@ aaa
 abN
 tfG
 wUt
-okB
+ybQ
 bzN
 slj
 dxK
@@ -107363,9 +107348,9 @@ aaa
 aaa
 aaa
 abN
-oij
-fVi
-oij
+uLp
+rhk
+uLp
 abN
 qmB
 mgZ
@@ -107391,7 +107376,7 @@ avi
 acR
 fMM
 sSX
-abN
+oDO
 abN
 aab
 bat
@@ -108666,7 +108651,7 @@ ado
 oUV
 cEV
 sgt
-lKq
+mNF
 avo
 kcW
 fMM

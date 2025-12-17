@@ -98,8 +98,7 @@ GLOBAL_LIST_INIT(active_security_positions, list(
 
 
 GLOBAL_LIST_INIT(assistant_positions, list(
-	"Assistant",
-	"Prisoner"
+	"Assistant"
 ))
 
 GLOBAL_LIST_INIT(nonhuman_positions, list(
@@ -107,6 +106,9 @@ GLOBAL_LIST_INIT(nonhuman_positions, list(
 	"Cyborg",
 	"Drone",
 	"pAI"
+))
+GLOBAL_LIST_INIT(noncrew_positions, list(
+	"Prisoner"
 ))
 
 /proc/get_job_datums()

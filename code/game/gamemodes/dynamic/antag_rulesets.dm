@@ -19,7 +19,7 @@
 
 	/// These roles 100% cannot be this antagonist
 	var/list/banned_jobs = list("Cyborg")
-	/// These roles can't be antagonists because mindshielding or are command staff (this can be disabled via config)
+	/// These roles can't be antagonists because they are mindshielded, a prisoner or are command staff (this can be disabled via config)
 	var/list/protected_jobs = list(
 		"Security Officer",
 		"Warden",
@@ -38,7 +38,8 @@
 		"Head of Personnel",
 		"Chief Medical Officer",
 		"Chief Engineer",
-		"Quartermaster"
+		"Quartermaster",
+		"Prisoner"
 	)
 	/// Applies the mind roll to assigned_role, preventing them from rolling a normal job. Good for wizards and nuclear operatives.
 	var/assign_job_role = FALSE
@@ -192,7 +193,6 @@
 	antag_cost = 7
 	antag_weight = 2
 	antagonist_type = /datum/antagonist/traitor
-	banned_jobs = list("Prisoner") // Bans the prisoner from being a traitor because of balancing reasons.
 
 /datum/ruleset/traitor/roundstart_post_setup(datum/game_mode/dynamic)
 	latespawn_time = rand(5 MINUTES, 15 MINUTES)

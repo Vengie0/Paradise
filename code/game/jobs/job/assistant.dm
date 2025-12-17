@@ -47,4 +47,5 @@
 	shoes = /obj/item/clothing/shoes/orange
 	l_ear = /obj/item/radio/headset
 	id = /obj/item/card/id/prisonerjob
+	bio_chips = /obj/item/bio_chip/tracking
 	pda = null

@@ -430,7 +430,7 @@
 
 
 /obj/item/card/id/prisoner
-	name = "prisoner ID card"
+	name = "Prisoner ID card"
 	desc = "You are a number, you are not a free man."
 	icon_state = "prisoner"
 	assignment = "Prisoner"
